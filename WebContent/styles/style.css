@@ -1,0 +1,151 @@
+/* For header page*/
+header {
+    font-size: 250%;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-color: #2f54a3;
+    top: 0%;
+    padding: 4px;
+    min-width: 100%;
+    position: fixed;
+    left: 0%;
+    text-indent: 1%;
+    border: 0px;
+}
+/* For image */
+img {
+    width: 2%;
+    height: 2%;
+}
+/*For heading page*/
+h1 {
+    top: 20%;
+    font-family: "Times New Roman";
+    position: fixed;
+    left: 5%;
+}
+
+h2 {
+	font-size: 160%;
+    top: 27%;
+    font-family: "Times New Roman";
+    position: fixed;
+    color: #4bc447;
+    left: 14%;
+}
+
+#item-cart {
+    font-size: 160%;
+    top: 27%;
+    font-family: "Times New Roman";
+    position: fixed;
+    color: #4bc447;
+    left: 16%;
+}
+/* For all table page */
+table {
+    width: 65%;
+    top: 35%;
+    position: fixed;
+    left: 5%;
+}
+#customer-table{
+	width: 50%;
+    top: 35%;
+    position: fixed;
+    left: 5%;
+}
+#citem-table {
+    width: 50%;
+    top: 35%;
+    position: fixed;
+    left: 5%;
+}
+/*For edit menu table*/
+#edit-menu-table {
+    width: 39%;
+    top: 45%;
+    position: fixed;
+    left: 5%;
+}
+
+#edit-table {
+    width: 70%;
+    top: 35%;
+    position: fixed;
+    left: 5%;
+}
+/*For table heading,row,dimension*/
+th {
+    font-size: 120%;
+}
+
+tr {
+    font-size: 120%;
+}
+
+td {
+    font-size: 120%;
+}
+/*For menu navigation*/
+nav a {
+    text-align: right;
+    font-size: 140%;
+    letter-spacing: 1%;
+    margin-left: 85%;
+    top: 1%;
+    color: #ffffff;
+    position: fixed;
+    padding: 4px;
+}
+/*For paragraph*/
+p {
+    top: 30%;
+    font-size: 120%;
+    color: #43de76;
+    left: 5%;
+    position: fixed;
+}
+/* For action link*/
+a {
+    color: #1c1b1b;
+}
+/* For Cart navigation*/
+#cart {
+    margin-left: 90%;
+}
+/*For cart empty paragraph*/
+#add-cart {
+    top: 30%;
+    font-size: 120%;
+    color: #a6a4a4;
+    left: 5%;
+    position: fixed;
+}
+/*For cart empty link*/
+#cart-link {
+    color: #2789e6;
+}
+/* For form*/
+form {
+    top: 20%;
+    position: fixed;
+}
+/*For save button*/
+#save {
+    background-color: #3868b5;
+    font-size: 70%;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+}
+/* For all footer page*/
+footer {
+    background-color: #b0aeae;
+    bottom: 0%;
+    min-width: 100%;
+    position: fixed;
+    left: 0%;
+    padding: 20px;
+    text-indent: 0, 8%;
+}

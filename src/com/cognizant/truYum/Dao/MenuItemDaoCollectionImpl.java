@@ -7,7 +7,6 @@ import java.util.List;
 import com.cognizant.truyum.model.MenuItem;
 import com.cognizant.truyum.util.DateUtil;
 
-
 public class MenuItemDaoCollectionImpl implements MenuItemDao {
     private static List<MenuItem> menuItemList;
 
@@ -55,17 +54,17 @@ public class MenuItemDaoCollectionImpl implements MenuItemDao {
 
     @Override
     public void modifyMenuItem(MenuItem menuitem) {
-       for (int i=0;i<menuItemList.size();i++) {
-           if(menuItemList.get(i).getId()==menuitem.getId()){
-               menuItemList.set(i, menuitem);
-           }
-       }
+        for (int i = 0; i < menuItemList.size(); i++) {
+            if (menuItemList.get(i).getId() == menuitem.getId()) {
+                menuItemList.set(i, menuitem);
+            }
+        }
     }
 
     @Override
     public MenuItem getMenuItem(long menuItemId) {
         for (MenuItem menuItem : menuItemList) {
-            if(menuItem.getId()==menuItemId) {
+            if (menuItem.getId() == menuItemId) {
                 return menuItem;
             }
         }

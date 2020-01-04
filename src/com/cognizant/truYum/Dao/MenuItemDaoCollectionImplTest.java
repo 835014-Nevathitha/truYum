@@ -1,9 +1,9 @@
-package com.cognizant.truYum.Dao;
+package com.cognizant.truyum.dao;
 
 import java.util.List;
 
-import com.cognizant.truYum.model.MenuItem;
-import com.cognizant.truYum.util.DateUtil;
+import com.cognizant.truyum.model.MenuItem;
+import com.cognizant.truyum.util.DateUtil;
 
 
 public class MenuItemDaoCollectionImplTest {

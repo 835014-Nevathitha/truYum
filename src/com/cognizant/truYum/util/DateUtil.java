@@ -1,4 +1,4 @@
-package com.cognizant.truYum.util;
+package com.cognizant.truyum.util;
 
 import java.util.Date;
 import java.text.ParseException;

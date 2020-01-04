@@ -1,6 +1,6 @@
-package com.cognizant.truYum.Dao;
+package com.cognizant.truyum.dao;
 
-import com.cognizant.truYum.model.Cart;
+import com.cognizant.truyum.model.Cart;
 
 public interface CartDao {
     public void addCartItem(long userId, long menuItem);

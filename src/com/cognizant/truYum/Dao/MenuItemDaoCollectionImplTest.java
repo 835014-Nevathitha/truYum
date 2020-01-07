@@ -50,7 +50,7 @@ public class MenuItemDaoCollectionImplTest {
     public static void testGetMenuItem() {
         System.out.println("Get Menu Item");
 
-        MenuItem menuItem = menudao.getMenuItem(2);
+        MenuItem menuItem = menudao.getMenuItem(3);
         System.out.println(menuItem);
     }
 

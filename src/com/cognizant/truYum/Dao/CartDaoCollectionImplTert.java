@@ -23,7 +23,9 @@ public class CartDaoCollectionImplTert {
     public static void testgetAllCartItems() {
         try {
             System.out.println("Retrieving all the items from Cart");
-            List<MenuItem> list = cartDao.getAllCartItems(2).getMenuItemList();
+            List<MenuItem> list = cartDao.getAllCartItems(1).getMenuItemList();
+            System.out.printf("%-5s%-20s%-8s%-9s%-20s%-15s%-5s\n", "Id ", "Name", "Price", "Active",
+                    "Date of Launch", "Category", "Free Delivery");
             for (MenuItem menuItem : list) {
                 System.out.println(menuItem);
             }

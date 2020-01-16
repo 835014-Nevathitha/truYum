@@ -14,16 +14,12 @@ public class CartDaoCollectionImpl implements CartDao {
         if (userCarts == null) {
             HashMap<Long, Cart> carts = new HashMap<Long, Cart>();
             userCarts = carts;
-
         }
-
     }
 
     @Override
     public void addCartItem(long userId, long menuItemId) {
-
         MenuItemDao menuItems = new MenuItemDaoCollectionImpl();
-
         MenuItem menuItem = menuItems.getMenuItem(menuItemId);
         if (userCarts.containsKey(userId)) {
             userCarts.get(userId).getMenuItemList().add(menuItem);
@@ -47,7 +43,6 @@ public class CartDaoCollectionImpl implements CartDao {
 
         for (MenuItem menuItem2 : menuItem) {
             total = total + menuItem2.getPrice();
-
         }
         cart.setTotal(total);
         return cart;
@@ -61,7 +56,6 @@ public class CartDaoCollectionImpl implements CartDao {
                 list.remove(i);
                 break;
             }
-
         }
     }
 

@@ -13,7 +13,7 @@
     <nav> <a href="ShowMenuItemListCustomer">Menu</a> <a id="cart" href="ShowCart">Cart</a> </nav>
     <h1>Cart</h1>
     <c:if test="${removeCartItemstatus==true}">
-        <h2 id="item-cart">Items Removed into Cart Successfully</h2>
+        <h2 id="item-cart">Item Removed into Cart Successfully</h2>
     </c:if>
     <c:set var="cart" value="${cart}"></c:set>
     <table id="table">
@@ -31,7 +31,7 @@
                 <td align="left"><c:choose>
                         <c:when test="${menuItem.isFreeDelivery()==true}">Yes</c:when>
                         <c:otherwise>No</c:otherwise>
-                    </c:choose>
+                    </c:choose></td>
                 <td align="right"><f:formatNumber type="currency" currencySymbol="Rs."
                         minFractionDigits="2" value="${menuItem.getPrice()}"></f:formatNumber></td>
                 <td align="center"><a href="RemoveCart?menuItemId=${menuItem.getId()}">Delete</a></td>

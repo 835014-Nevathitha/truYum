@@ -26,7 +26,7 @@ public class EditMenuItemServlet extends HttpServlet {
         String dateOfLaunch = request.getParameter("dateOfLaunch");
         String category = request.getParameter("category");
         String isFreeDelivery = request.getParameter("freeDelivery");
-        // System.out.println(name+"-"+price+"-"+active+"-");
+
         boolean active = false;
         boolean freeDelivery = false;
         if (isactive.equals("No")) {

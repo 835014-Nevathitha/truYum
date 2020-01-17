@@ -7,8 +7,7 @@
 <title>Edit Menu Item</title>
 <link rel="icon" href="images\truyum-logo-dark.png" />
 <script type="text/javascript" src="js/script.js">
-    
-</script>
+ </script>
 <link rel="stylesheet" type="text/css" href="styles\style.css" />
 </head>
 <body>
@@ -21,7 +20,6 @@
         method="post">
         <input type="hidden" name="id" value="${menuItem.getId()}" />
         <table>
-
             <tr>
                 <td><label for="name"><b>Name</b></label></td>
             </tr>
@@ -31,9 +29,8 @@
             </tr>
         </table>
         <table id="edit-menu-table">
-            <td></td>
-            <td></td>
-
+           <!--  <td></td>
+            <td></td> -->
             <tr>
                 <td><label for="price"><b>Price(Rs.)</b></label></td>
                 <td><label for="inStock"><b>Active</b></label></td>
@@ -56,19 +53,15 @@
                 <td><f:formatDate value="${menuItem.getDateOfLaunch()}" pattern="dd/MM/yyyy"
                         var="dateOfLaunch" /><input name="dateOfLaunch" type="text"
                     value="${dateOfLaunch}" placeholder="27/04/2022"></td>
-
-
                 <td><select id="category" name="category" value="${menuItem.getCategory()}"
                     placeholder="Main Course">
-
                         <option value="Main course">Main Course</option>
                         <option value="Starters">Starters</option>
                         <option value="Dessert">Dessert</option>
-                        <option value="Drinks">Drinks</option></td>
-                </select>
-
+                        <option value="Drinks">Drinks</option>
+                </select></td>
             </tr>
-            <tr></tr>
+            <!-- <tr></tr> -->
             <tr>
                 <c:choose>
                     <c:when test="${menuItem.isFreeDelivery()==true}">
@@ -81,12 +74,11 @@
                     </c:otherwise>
                 </c:choose>
                 <label for="del" />
-                <br />
+                <!--   <br /> -->
             </tr>
-            <tr></tr>
-            </tr>
+            <!--  <tr></tr> -->
             <tr>
-                <td><input type="submit" value="Save" id="save" /></a></td>
+                <td><a><input type="submit" value="Save" id="save" /></a></td>
             </tr>
         </table>
     </form>

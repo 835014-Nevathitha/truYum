@@ -40,7 +40,7 @@
         <tr>
             <td></td>
             <td><b>Total</b></td>
-            <td><b>Rs.${cart.getTotal()}</b></td>
+            <td><b>Rs.{cart.getTotal()}</b></td>
     </table>
     <footer>Copyright &copy; 2019 </footer>
 </body>

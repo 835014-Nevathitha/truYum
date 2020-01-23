@@ -38,7 +38,7 @@
             </tr>
         </c:forEach>
         <tr>
-            <td></td>
+            <!-- <td></td> -->
             <td><b>Total</b></td>
             <td><b>Rs.{cart.getTotal()}</b></td>
     </table>
